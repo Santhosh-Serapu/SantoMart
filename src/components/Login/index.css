@@ -1,0 +1,143 @@
+.main-container {
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.container1 {
+  background-image: url('https://res.cloudinary.com/drji3ydue/image/upload/v1761287471/17264c25b2390e63bf21e8f09205a575650c9b3f_dsfp15.jpg');
+}
+
+.container2 {
+  background-image: url('https://res.cloudinary.com/drji3ydue/image/upload/v1761287470/8faf00be5eb69a93a65afbe3d74139ee52d7c888_yiofmo.jpg');
+}
+
+.container3 {
+  background-image: url('https://res.cloudinary.com/drji3ydue/image/upload/v1761287469/76cc17ce61edba1f611c2f04d50ed2fb0aa0d69c_p6g3do.jpg');
+}
+
+.container4 {
+  background-image: url('https://res.cloudinary.com/drji3ydue/image/upload/v1761287468/df41397809637783efe77643f73b5262ba12bbea_ihsapt.jpg');
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container1 {
+    top: 0;
+    left: 0;
+  }
+  .container2 {
+    top: 0;
+    right: 0;
+  }
+  .container3 {
+    bottom: 0;
+    left: 0;
+  }
+  .container4 {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.login-website-logo {
+  width: 100px;
+  height: auto;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 15px;
+  padding: 30px;
+  width: 400px;
+  background-color: white;
+  border: 2px solid rgb(1, 144, 1);
+}
+.username-container {
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.username-container:focus-within {
+  outline: 2px solid rgb(108, 178, 3);
+  outline-offset: 0.25rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.profile-icon {
+  margin-left: 10px;
+}
+.login-inputs {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+}
+.login-labels {
+  font-family: 'Roboto';
+  font-size: 15px;
+  cursor: pointer;
+}
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.login-btn {
+  background: #b3b3b3;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: not-allowed;
+  height: 44px;
+}
+.active-login-btn {
+  background: #088c03;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  height: 44px;
+}
+.checkbox-input {
+  cursor: pointer;
+}
+.show-password-lable {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,128 @@
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+  max-width: 568px;
+  padding: 35px 25px;
+}
+
+.footer-btns {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+.footer-btns:hover {
+  transform: scale(1.2);
+  color: #056f02;
+}
+.header-website-logo {
+  display: none;
+  width: 80px;
+  height: auto;
+}
+.navigation-btns-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.navigation-text {
+  display: none;
+}
+.footer-icon {
+  display: block;
+}
+.logout-btn {
+  background-color: #088c03;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  width: 80px;
+}
+.logout-icon {
+  display: block;
+}
+.logout-text {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .footer-container {
+    top: 0;
+    max-width: 100%;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+  }
+  .navigation-btns-container {
+    width: 230px;
+  }
+  .header-website-logo {
+    display: block;
+    width: 80px;
+    height: auto;
+  }
+  .navigation-text {
+    font-size: 16px;
+    display: block;
+    color: black;
+    font-weight: 600;
+  }
+  .footer-icon {
+    display: none;
+  }
+  .logout-icon {
+    display: none;
+  }
+  .logout-text {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-container {
+    top: 0;
+    max-width: 100%;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+  }
+  .navigation-btns-container {
+    width: 230px;
+  }
+  .header-website-logo {
+    display: block;
+    width: 80px;
+    height: auto;
+  }
+  .navigation-text {
+    font-size: 16px;
+    display: block;
+    color: black;
+    font-weight: 600;
+  }
+  .footer-icon {
+    display: none;
+  }
+  .logout-icon {
+    display: none;
+  }
+  .logout-text {
+    display: block;
+  }
+}

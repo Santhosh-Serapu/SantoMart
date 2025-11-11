@@ -1,0 +1,124 @@
+.home-page {
+  background-color: white;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.home-container {
+  max-width: 568px;
+  padding: 0 0 0 12px;
+  display: flex;
+  flex-direction: column;
+}
+.loader-container,
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-image {
+  width: 229px;
+  max-width: 80%;
+}
+.opps-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.trouble-text {
+  font-size: 12px;
+  text-align: center;
+}
+.retry-btn {
+  background-color: #088c03;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+.retry-btn:hover {
+  background-color: #0ca805;
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    max-width: 991px;
+  }
+
+  .failure-image {
+    width: 300px;
+  }
+
+  .opps-text {
+    font-size: 24px;
+  }
+
+  .trouble-text {
+    font-size: 14px;
+  }
+
+  .retry-btn {
+    width: 140px;
+    font-size: 15px;
+  }
+}
+
+/* 🔵 LAPTOP SCREENS (≥992px) */
+@media (min-width: 992px) {
+  .home-container {
+    max-width: 1200px;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+  }
+
+  .failure-view {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .failure-image {
+    width: 350px;
+  }
+
+  .opps-text {
+    font-size: 28px;
+  }
+
+  .trouble-text {
+    font-size: 16px;
+  }
+}
+
+/* 🔴 DESKTOP SCREENS (≥1200px) */
+@media (min-width: 1200px) {
+  .home-container {
+    min-width: 1200px;
+  }
+
+  .failure-image {
+    width: 400px;
+  }
+
+  .opps-text {
+    font-size: 30px;
+  }
+
+  .trouble-text {
+    font-size: 18px;
+  }
+
+  .retry-btn {
+    width: 160px;
+    font-size: 16px;
+  }
+}
