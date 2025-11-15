@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SantoMart/static/css/main.120eee9f.chunk.css",
+    "main.css": "/SantoMart/static/css/main.a7d5fdb4.chunk.css",
     "main.js": "/SantoMart/static/js/main.7f50d985.chunk.js",
     "main.js.map": "/SantoMart/static/js/main.7f50d985.chunk.js.map",
     "runtime-main.js": "/SantoMart/static/js/runtime-main.71fd1e63.js",
@@ -8,13 +8,13 @@
     "static/js/2.dce7149d.chunk.js": "/SantoMart/static/js/2.dce7149d.chunk.js",
     "static/js/2.dce7149d.chunk.js.map": "/SantoMart/static/js/2.dce7149d.chunk.js.map",
     "index.html": "/SantoMart/index.html",
-    "static/css/main.120eee9f.chunk.css.map": "/SantoMart/static/css/main.120eee9f.chunk.css.map",
+    "static/css/main.a7d5fdb4.chunk.css.map": "/SantoMart/static/css/main.a7d5fdb4.chunk.css.map",
     "static/js/2.dce7149d.chunk.js.LICENSE.txt": "/SantoMart/static/js/2.dce7149d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.71fd1e63.js",
     "static/js/2.dce7149d.chunk.js",
-    "static/css/main.120eee9f.chunk.css",
+    "static/css/main.a7d5fdb4.chunk.css",
     "static/js/main.7f50d985.chunk.js"
   ]
 }
